@@ -1,0 +1,61 @@
+Git Rrpo Link: https://github.com/Sinha-Sagar/GitAssignment
+
+1. Project Initialization: 
+	mkdir GitAssignment
+	
+	cd ./GitAssignment
+	
+	echo Hello > file.txt
+	
+	git init
+	
+	git status
+	
+	git add .
+	
+	git remote add origin https://github.com/Sinha-Sagar/GitAssignment.git
+	
+	git commit -m "File Added"
+	
+	git push origin main
+	
+2. Feature Addition & Branch Management:
+	git checkout -b feature/update-readme
+
+	echo "NAME: # Sample Project" >> README.md
+	
+	echo "DESCRIPTION: This project serves as a Git and GitHub workflow training exercise." >> README.md
+	
+	git add README.md
+	
+	git commit -m "README.md added"
+	
+	git push origin main
+	
+4. Merge Changes:
+	Go to GitHub and merge bith the branch using compare and pull requst.
+	
+	git checkout main
+	
+	git pull origin main
+
+5. Branch Cleanup:
+	Delete Locally: git branch -d feature/update-readme
+	
+	Delete Globally: git push origin --delete feature/update-readme
+
+							Key Questions: 
+
+1. How will you set up the project for version control and push it to GitHub? 
+	Solution: Step 1 for this.
+
+2. What steps will you take to create, push, and manage branches effectively? 
+	Solution: Step 2 for this.
+
+3. How will you ensure the changes in the feature branch are merged into the main 
+branch? 
+	Solution: Step 4 for this.
+
+4. What commands will you use to clean up unused branches locally and 
+remotely?
+	Solution: Step 5 for this.
